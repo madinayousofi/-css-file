@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+#div{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(165, 42, 42, 0);;
+}
+#div1{
+    width: 40%;
+    float: left;
+}
+#div h1{
+    color: red;
+    font-size: 35px;
+    float: left;
+    /* margin-bottom: 20px; */
+    vertical-align: top;
+    margin-left: 50px;
+    /* font-family: mv boli; */
+}
+#div2{
+    width: 60%;
+   background-color: rgba(139, 69, 19, 0) ;
+   height: 60px;
+   float: right;;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+  /* background-color: #333; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 16px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Colonna MT;
+}
+
+li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+.active {
+  background-color: rgb(236, 52, 19 );
+}
+#div2 button{
+    width: 120PX;
+    height: 40px;
+    background-color: rgb(236, 52, 19);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: mv boli;
+    float: right;
+    margin-top: 10px;
+    margin-right: 60px;
+    ;;
+}
+#div2 button:hover{
+    background-color: black;
+
+}
+button:hover{
+    background-color: rgb(119, 114, 114);
+    transform: rotate(20deg);
+    
+}
+
+#divbg{
+    width: 100%;
+    height: 400px;
+    background-image: url(photo_2024-09-15_05-43-31.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+#divbg h2{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 150px;
+    font-family: Algerian;
+
+}
+#divbg h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: Castellar;
+}
+.input2{
+    width:280px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: middle;
+    margin: auto;
+    margin-left: 400px;
+    ;
+}
+.input1{
+    width: 180px;
+    height: 35px;
+    background-color: rgb(236, 52, 19);
+    border: none;
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+}
+#divimg{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(212, 102, 102, 0);;
+}
+.divimg1{
+    width: 400px;
+    height: 350px;
+    margin-left: 230px;
+
+    background-color: rgb(255, 61, 27);
+    float: left;;
+}
+.divp{
+    width: 500px;
+    height: 350px;
+    margin-right: 150px;
+     background-color: white;
+     float: right;
+}
+.divimg1 img{
+    width: 400px;
+    height: 280px;
+    ;;
+}
+.divimg1 h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+.divp h6{
+    color: red;
+    font-size: 15px;
+
+}
+.divp h2{
+    font-size: 35px;
+
+}
+.divp p{
+    font-size: 16px;
+
+}
+#divtable{
+    width: 100%;
+    height: 400px;
+    background-color: wheat;;
+}
+#divp1{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255, 255, 0, 0);
+    float: left;
+    margin-left: 200px;
+}
+#divp1 h6{
+    color: red;
+    font-size: 15px;
+    
+}
+#divp1 h2{
+    color: black;
+    font-size: 30px;
+    font-family: Imprint MT Shadow;
+}
+#divp1 p{
+    font-size: 18px;
+    font-family: mv boli;
+}
+.spn1{
+    color: red;
+ font-size: 30px;
+ margin-left: 10px;
+ margin-left: 60px;
+
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.spn2{
+    font-size: 20px;
+    margin-left: 20px;
+}
+#divred{
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+    float: right;
+    margin-right: 150px;
+}
+.inpt{
+    width: 330px;
+    margin-left: 30px;
+    height: 40px;
+    border: none;
+    ;
+}.inpt1{
+    width: 330px;
+    margin-left: 30px;
+    height: 40px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#divb{
+    width: 100%;
+    height: 300px;
+    /* background-color: ;; */
+}
+#divb p{
+    color: red;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#divb h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: mv boli;
+}
+.botton1{
+    width: 170px;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(245, 56, 22);;
+    border: none;
+    margin-left: 230px;
+    color: white;
+    font-size: 15px;
+
+}
+.botton2{
+    width: 170px;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(245, 56, 22);
+    border: none;
+    margin-left: 40px;
+    color: white;
+    font-size: 15px;
+}
+#divpara{
+    width: 100%;
+    height: 200px;
+    ;;
+}
+.para{
+    width: 300px;
+    margin-left: 60px;
+   background-color: rgba(0, 0, 255, 0);
+    float: left;
+  
+
+}
+.para p{
+    display: inline;
+}
+.para1{
+    width: 300px;
+    margin-left: 10px;
+    float: left;
+    background-color: rgba(0, 255, 255, 0)
+}
+
+.spn3{
+    color: red;
+    text-align: center;
+    margin-left: 90px;
+    font-size: 20px;
+}
+#divcontainer{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(196, 194, 193, 0.11);;
+    ;
+}
+#dviimg2{
+    width: 300px;
+    height: 370px;
+    float: left;
+    margin-left: 100px;
+
+    ;;
+}
+#dviimg2 img{
+    width: 300px;
+    height: 370px;
+}
+#divp3{
+    width: 700px;
+    height: 370px;
+    background-color: rgba(128, 255, 0, 0);
+    float: right;
+    margin-right: 200px;
+}
+.btni{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: tomato;
+    border: none;
+}
+#divp3 h6{
+    color: red;
+}
+#divp3 h1{
+    font-family: Castellar;
+}
+#divp3 p{
+    font-family: Cambria;
+}
+#divpr{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(137, 43, 226, 0);;
+}
+#divpr2{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(146, 142, 142);
+    float: left;
+    margin-left: 100px;;
+}
+#divpr3{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(146, 142, 142);
+    float: left;
+    margin-left: 30px;;
+}
+#divpr h6{
+    color: red;
+    text-align: center;
+
+}
+#divpr h1{
+    text-align: center;
+    font-size: 40px;
+}
+#divhover{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua;; */
+}
+#divhover h6{
+    color: red;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#divhover h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Castellar;
+}
+.hover {
+  position: relative;
+  width: 50%;
+  display: inline;
+  height: 600px;
+  /* background-color: teal; */
+  margin-left: 20px;
+}
+
+.image {
+  /* display: block; */
+  width: 300px;;
+  height: 300px;;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: tomato;
+  overflow: hidden;
+  width: 300px;;
+  height: 0;
+  transition: .5s ease;
+}
+
+.hover:hover .overlay {
+  height: 100px;;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Ravie;
+}
+#divpimg{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);;
+}
+h6{
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: Castellar;
+}
+
+.divbo{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(207, 207, 207);
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;;
+}
+.divbo:hover{
+    transform: scale(1,1.4); 
+
+transform: matrix(1, -0.3, 0, 1, 0, 0); 
+}
+.divbo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;;
+}
+.divbo h2{
+    font-size: 30px;
+    font-family: mv boli;
+    margin: 0px;
+    padding: 0px;
+}
+.divbo h3{
+    font-size: 20px;
+    font-family: Forte;
+}
+#divkal{
+    width: 100%;
+    height: 750px;
+    background-color: rgba(255, 255, 0, 0);;
+}
+#divkal2 h3{
+font-size: 20px;
+text-align: center;
+margin-left: 30px;
+font-family: mv boli
+}
+#divkal2 p{
+    font-size: 12px;
+    font-family: Comic Sans MS;
+}
+#divkal2{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(201, 201, 201, 0.781);
+
+    float: left;
+    margin-left: 100px;;
+}
+
+.img3{
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    float: left;
+    ;;
+}
+
+.btn5{
+    width: 80px;
+    height: 80px;
+    background-color: tomato;
+    border-radius: 60px;
+    position: relative;
+    bottom: 60px;
+    float: right;
+    margin-right: 30px;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+}
+.img2{
+    width: 500px;
+    height: 350px;; 
+}
+.btnl{
+    /* width: 120px; */
+    /* border: none; */
+    border-bottom: rgb(255, 38, 0);
+    color: red;
+    font-size: 20px;
+    font-family: mv boli;
+}
+#divf{
+width: 100%;
+height: 420px;
+background-color:  #f7e1b7;
+border-bottom: black;
+}
+#divf2{
+    width: 450px;
+    height: 400px;
+    background-color:  #e0ba6d;
+    margin: auto;
+    border-top-left-radius: 230px;
+    border-top-right-radius: 230px;
+
+}
+#divf2 h3{
+    font-size: 35px;
+    font-family: Algerian;
+    margin-left: 35px;
+}
+#divf2 p{
+    font-size: 14px;
+    font-family: Cambria;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#divf2 button{
+    width: 100px;
+    height: 30px;
+    margin-left: 90px;
+    border: none;
+    font-size: 14px;
+    font-family: Algerian;
+}
+#divfooter{
+    width: 100%;
+    height: 250px;
+   background-color: rgb(26, 25, 25);
+    ;;
+}
+#divfooter2{
+    width: 600px;
+    background-color: rgba(24, 23, 23, 0);
+    height: 250px;
+    float: left;;
+    ;
+}
+#divfooter3{
+    width: 200px;
+    height:250px;
+    background-color: rgba(17, 188, 194, 0);
+    float: right;
+    margin-left: 20px;;
+}
+#divfooter2 h1{
+    font-size: 30px;
+    font-family: MV Boli;
+    color: white;
+}
+#divfooter2 p{
+    font-size: 15px;
+    color: white;
+}
+/* #divfooter2 input{
+    width: 200px;
+    height: 30px;;
+} */
+.input2{
+    width: 200px;
+    height: 30px;
+    
+}
+.input1{
+width: 130px;
+height: 30px;
+background-color: rgb(230, 171, 117);
+border: none;
+margin-left: 30px;
+}
+#divfooter3 p{
+    font-family: Segoe Print;
+    font-size: 15px;
+    color: white;
+}
+#fixdiv{
+    width: 40px;
+    height: 30px;
+    background-color: tomato;
+    position: fixed;
+    right: 10px;
+    bottom: 280px;
+
+    ;;
+}
+</style>
+<body>
+    <!-- start nav -->
+    <div id="div">
+            <h1> FASTER</h1>
+<div id="div1">
+      
+    </div>
+<div  id="div2">
+<ul>
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">blogs</a></li>
+    <li><a href="#about">services</a></li>
+</ul>
+<button>
+    GET A QUIT
+</button>
+</div>
+    </div>
+    <!-- end nav? -->
+
+    <!-- start header -->
+    <div id="divbg"><br>
+<h2>safe & faster</h2>
+<h1>Logistics services</h1>
+<form action="#">
+<input class="input2" type="password" placeholder="Traking id">
+<input class="input1" type="submit" value="Track & Trace">
+
+</form>
+    </div>
+    <!-- end of header -->
+
+    <!-- start side bar -->
+    <div id="divimg">
+<br>
+        <div class="divimg1">
+            <img src="image/photo_2024-09-15_05-43-21.jpg" alt="">
+                <h3>25+ years experience</h3>
+        </div>
+            <div class="divp">
+                <h6>ABOUT US</h6>
+                    <H2>Trusted & Faster Logistic services provider</H2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos pariatur obcaecati saepe dicta qui ipsa animi dolores perspiciatis, blanditiis, doloremque quis repudiandae. Eos, accusamus cupiditate commodi quisquam et sed necessitatibus.
+
+                            </p>
+            </div>
+    </div>
+    <!-- END OF SIDE BAR -->
+
+    <!-- start of side bar  -->
+    <div id="divtable">
+ <div id="divp1">
+<h6>Get A guit</h6>
+<h2>Requested A Free Quote</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni, modi, similique architecto libero nostrum laboriosam eos officiis nisi a praesentium ex quibusdam voluptates distinctio, quod quaerat maiores. Perferendis, corrupti.
+
+</p>
+
+  <span class="spn1">225</span>  
+  <span class="spn1"> 1050</span> 
+  <span class="spn1"> 2500</span><br>
+  <span class="spn2"> skilled experts</span> 
+
+
+  
+     <span class="spn2"> Happy clienes</span>
+
+
+  
+    <span class="spn2">complete project</span>
+
+ </div>
+ <div id="divred" ><br><br><br><br><br>
+<form action="">
+    <input class="inpt" type="text" placeholder="Your name">
+    <br><br>
+    <input class="inpt" type="email" placeholder="Your email"><br><br>
+    <input  class="inpt"type="number" id="quantity" name="quantity" min="1" max="5" placeholder="select A services"><br><br>
+    <input class="inpt1" type="submit" value="Get A Qouts">
+  
+
+</form>
+ </div>
+    </div>
+    <!-- end of side bar -->
+
+    <!-- start of section2 -->
+    <div id="divb"><br>
+<p>our services</p>
+<h1>Best Logistic Services</h1>
+<br>
+<button class="botton1">
+    Air plan
+</button>
+<button class="botton2">
+    ocean friget
+</button>
+<button class="botton2">Land transportation</button>
+<button class="botton2">carge storage</button>
+    </div>
+    <!-- end of section -->
+
+    <!-- start of section2 -->
+    <div id="divpara">
+<div class="para"><br>
+<p> Labore ad perspiciatis cum sunt. Veniam tempora sequi reprehenderit facere quasi, at ea, et esse quo asperiores similique eligendi sit, iste accusantium.</p>
+<br>  <span class="spn3">   ratione!</span> 
+</div>
+<div class="para1">
+    <p> Libero , nemo possimus exercitationem. Voluptate minus quod cum inventore deleniti quidem, consectetur molestias officiis dolor ducimus esse ratione!
+            <br>  <span class="spn3">   ratione!</span> 
+    </p>
+</div>
+<div class="para1">
+        <p> Libero inventore sunt officiis facere, nemo possimus exercitationem. Voluptate minus quod cum inventore deleniti quidem, consectetur molestias officiis dolor ducimus esse ratione!
+                <br>  <span class="spn3">   ratione!</span> 
+        </p>
+    </div><div class="para1">
+            <p> inventore , nemo possimus exercitationem. Voluptate minus quod cum inventore deleniti quidem, consectetur molestias officiis dolor ducimus esse
+                <br>  <span class="spn3">   ratione!</span> 
+        
+            </p>
+        </div>
+    </div>
+    <!-- end of section 2 -->
+    
+    <!-- start of section 3 -->
+    <div id="divcontainer">
+<div id="dviimg2"><br>
+<img src="image/photo_2024-09-15_05-43-48.jpg" alt="">
+</div><br>
+<div id="divp3">
+<h6>WHY CHOOSE US</h6>
+<H1>Faster , Safe and Trusted <br>Logistic services</H1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, facere laboriosam. Dolore eius blanditiis dolorum exercitationem consequuntur repudiandae, ipsum ea in aspernatur totam nam. Repellendus repellat aliquam eligendi asperiores at!
+
+</p>
+<ol >
+    <li >Best in industry</li><br>
+    <li>Emergency services </li><br>
+    <li>24/7 costom support</li><br>
+</ol>
+<button class="btni">   Learn more</button>
+
+</div>
+    </div>
+    <!-- end of section3 -->
+
+    <!-- start of section4 -->
+    <div id="divpr"><br>
+<h6>PRINCIPLE PLAN</h6>
+<h1>Affordable Principle Package</h1>
+<div id="divpr2">
+        <span style="font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-left: 100px;"> <sup  style="font-size: 20px;font-family: initial; ">$</sup>49 <sub  style="font-size: 20px;font-family: initial; ">/Mo</sub></span><br>
+        <button style="width: 350px; height:37px;background-color: tomato; border: none ; border-radius: 30px; font-size: 20px;;">basic</button>
+        <br><br>
+        <span style="font-size: 30px; margin-left: 100px;"> html& css</span><br>
+        <span style="font-size: 30px; margin-left: 100px;">botstrap</span><br>
+        <span style="font-size: 30px; margin-left: 100px;">Responsive</span>
+        <span style="font-size: 30px; margin-left: 100px;">compatibilities </span><br><br><br>
+        <button style="width: 130px; height: 35px;
+        background-color: tomato;border: none;margin-left: 100px;font-size: 18px; ;">
+            order now
+        </button>
+</div>
+<div id="divpr3">
+        <span style="font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-left: 100px;"> <sup  style="font-size: 20px;font-family: initial; ">$</sup>49 <sub  style="font-size: 20px;font-family: initial; ">/Mo</sub></span><br>
+        <button style="width: 350px; height:37px;background-color: tomato; border: none ; border-radius: 30px; font-size: 20px;;">basic</button>
+        <br><br>
+        <span style="font-size: 30px; margin-left: 100px;"> html& css</span><br>
+        <span style="font-size: 30px; margin-left: 100px;">botstrap</span><br>
+        <span style="font-size: 30px; margin-left: 100px;">Responsive</span>
+        <span style="font-size: 30px; margin-left: 100px;">compatibilities </span><br><br><br>
+        <button style="width: 130px; height: 35px;
+        background-color: tomato;border: none;margin-left: 100px;font-size: 18px; ;">
+            order now
+        </button>
+
+</div>
+<div id="divpr3">
+        <span style="font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-left: 100px;"> <sup  style="font-size: 20px;font-family: initial; ">$</sup>49 <sub  style="font-size: 20px;font-family: initial; ">/Mo</sub></span><br>
+        <button style="width: 350px; height:37px;background-color: tomato; border: none ; border-radius: 30px; font-size: 20px;;">basic</button>
+        <br><br>
+        <span style="font-size: 30px; margin-left: 100px;"> html& css</span><br>
+        <span style="font-size: 30px; margin-left: 100px;">botstrap</span><br>
+        <span style="font-size: 30px; margin-left: 100px;">Responsive</span>
+        <span style="font-size: 30px; margin-left: 100px;">compatibilities </span><br><br><br>
+        <button style="width: 130px; height: 35px;
+        background-color: tomato;border: none;margin-left: 100px;font-size: 18px; ;">
+            order now
+        </button>
+    </div>
+    </div>
+    <!-- end of section 4 -->
+
+    <!-- start of section 5 -->
+    <div id="divhover">
+        <h6>deliever team</h6><br>
+        <h1>Meet our Delivery team</h1>
+        <br>
+        <div class="hover">
+            <img src="image/photo_2024-09-15_05-44-33.jpg" alt="Avatar" class="image">
+           
+
+            <div class="overlay">
+
+              <div class="text">FOLLOW THESE</div>
+            </div>
+        </div>
+        <div class="hover">
+            <img src="image/photo_2024-09-15_05-44-01.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">FOLLOW THESE</div>
+            </div>
+        </div>
+        <div class="hover">
+            <img src="image/photo_2024-09-15_05-44-15.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">FOLLOW THESE</div>
+            </div>
+        </div> <div class="hover">
+            <img src="image/photo_2024-09-15_05-44-22.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text"> FOLLOW THESE</div>
+            </div>
+        </div>
+    </div>
+    <!-- end of section 5 -->
+
+    <!-- start of section 6 -->
+    <br>
+    <div id="divpimg">
+        <h6>TESMONNIAL</h6><br>
+        <H1>Our clients say</H1>
+<div class="divbo">
+<img src="image/photo_2024-09-15_05-43-55.jpg" alt="">
+<h2>client name</h2>
+<h3>-profesor</h3>
+<p>. Repellendus minima, laudantium voluptatem doloremque eum id deserunt beatae eius labore dicta mollitia rem laboriosam minus quod culpa fuga, sequi ipsum error?
+
+</p>
+</div>
+<div class="divbo">
+        <img src="image/photo_2024-09-15_05-43-21.jpg" alt="">
+        <h2>client name</h2>
+        <h3>-profesor</h3>
+        <p>. Repellendus minima, laudantium voluptatem doloremque eum id deserunt beatae eius labore dicta mollitia rem laboriosam minus quod culpa fuga, sequi ipsum error?
+        
+        </p>
+        </div><div class="divbo">
+                <img src="image/photo_2024-09-15_05-43-48.jpg" alt="">
+                <h2>client name</h2>
+                <h3>-profesor</h3>
+                <p>. Repellendus minima, laudantium voluptatem doloremque eum id deserunt beatae eius labore dicta mollitia rem laboriosam minus quod culpa fuga, sequi ipsum error?
+                
+                </p>
+                </div>
+    </div>
+    <!-- end of section 6 -->
+
+    <!-- start of section 7 -->
+    <div id="divkal">
+<h6>OUR BLOG</h6><br>
+<h1>lasted from blog</h1>
+<div id="divkal2">
+<img src="image/photo_2024-09-15_05-43-55.jpg" alt="" class="img2">
+<button class="btn5">
+    0.1 jan
+</button>
+<img src="image/photo_2024-09-15_05-44-01.jpg" alt="" class="img3">
+<br><h3>kasted tempor diam sea justo dolor</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores error, illo aliquam rem ipsa laborum aperiam quam enim temporibus accusantium cum eaque sapiente optio quod quasi sunt delectus! Ipsa, provident.
+
+</p>
+<span class="btnl">
+    learn more
+</span>
+</div>
+<div id="divkal2">
+        <img src="image/photo_2024-09-15_05-43-48.jpg" alt="" class="img2">
+        <button class="btn5">
+            0.1 jan
+        </button>
+        <img src="image/photo_2024-09-15_05-44-01.jpg" alt="" class="img3">
+        <br><h3>kasted tempor diam sea justo dolor</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores error, illo aliquam rem ipsa laborum aperiam quam enim temporibus accusantium cum eaque sapiente optio quod quasi sunt delectus! Ipsa, provident.
+        
+        </p>
+        <span class="btnl">
+            learn more
+        </span>
+        </div>
+    </div>
+    <div id="fixdiv">
+        ←
+    </div>
+    <!-- end of section 7 -->
+
+    <!-- start of section 8 -->
+    <div>
+            <section6>
+                    <div id="divfooter"><br>
+                    <div id="divfooter2">
+                    <h1>FLEER</h1>
+                    <P>Complete this sentences by your information</P>
+                    <form action="#"> 
+                    <input type="text" value="Your name" class="input2" > 
+                    <input type="submit" name="" id="" value="submit" class="input1">
+                    
+                    
+                    </form>
+                    </div>
+                    <div id="divfooter3">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit ex architecto,  harum veniam sapiente? Repellendus aperiam quos molestias maxime corrupti.
+                    
+                    </p>
+                    </div>
+                    <div id="divfooter3">
+                    <p>Lorem ipsum dolor sit amet,  quibusdam aliquam, praesentium ea expedita eveniet.</p>
+                        </div><div id="divfooter3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab tempore soluta accusantium cumque,</p>
+                            </div>
+                    </div>
+                    </section6>
+    </div>
+
+
+</body>
+</html>
